@@ -1,0 +1,53 @@
+:root{
+    // --primary-white: #a9886e;
+    --primary-green: #5caa55;
+    --primary-blue: #55aaa3;
+}
+
+.card{
+
+    background-color: var(--primary-blue);  
+    width: 50rem;
+    height: 30rem;
+    margin-top: 5.3125rem;
+    margin-left: 7.5rem;
+    .card-img{
+        width: 5rem;
+    }
+   
+    .card-body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-transform: uppercase;
+        margin-top: 3rem;
+        font-weight: 400;
+        
+        .card-title{
+            position: relative;
+            font-size: 4rem;
+            letter-spacing: .425rem;
+            column-gap: 1.875rem;
+            text-transform: uppercase;
+        }
+        .card-text{
+            position: relative;
+            right: 4rem;
+            font-size: 1rem;
+            line-height: 2.25s;
+        }
+        .card-button{
+            position: relative;
+            border: 1px solid var(--primary-green);
+            border-radius: 2rem;
+            position: relative;
+            right: 14rem;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+    
+   
+}

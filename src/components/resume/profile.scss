@@ -1,0 +1,32 @@
+.profile{
+    margin-right: 4rem;
+    width: 40rem;
+}
+.profile-title{
+    display: flex;
+
+    .profile-img{
+        width: 8rem;
+        height: 8rem;
+        background-image: url("../reshma.jpg") ;
+        background-size: cover;
+    }
+    .title-caption{
+        
+        margin-bottom: 1rem;
+    }
+    .title-tag{
+        font-size: 1rem;
+        color: black;
+        text-transform: capitalize;
+        font-weight: 700;
+        padding: 1rem;
+    }
+   
+}
+.skill-bar{
+    margin: 1rem;
+}
+.button{
+    margin-top: 2rem;
+}
